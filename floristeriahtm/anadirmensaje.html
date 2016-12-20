@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="col-xs-1 col-md-3"></div>
+            <div class="col-xs-1 col-md-6" >
+        
+            <div class="col-md-12" style="padding:0px">
+            <div class="col-md-12" style="padding:50px">
+            <fieldset >
+                <legend><center>Añadir Mensaje</center></legend>
+                <form id="mensaje" action="admin/anadirmensaje.php" method="POST">
+                        <label for="mensaje" class="control-label">Mensaje </label>
+                        <input type="text" id="mensaje" name="mensaje" class="form-control">
+                        </br>
+                        <input type="submit" id="registro" name="registro" value="Registrarme" class="btn btn-group-justified" onclick="comprobarContraseñas()" >
+                        
+                        </form>
+            </fieldset>
+            </div>
+            </div>
+                
+                
+            </div>
+            <div class="col-xs-1 col-md-3"></div>
+            </div>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+             <script src="cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

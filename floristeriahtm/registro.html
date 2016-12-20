@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="col-xs-1 col-md-3"></div>
+            <div class="col-xs-1 col-md-6" >
+        
+            <div class="col-md-12" style="padding:0px">
+            <div class="col-md-12" style="padding:50px">
+            <fieldset >
+                <legend><center>Registro</center></legend>
+                <form id="registro" action="admin/registro.php" method="POST">
+                        <label for="nombre" class="control-label">Nombre </label>
+                        <input type="text" id="nombre" name="nombre" class="form-control">
+                        </br>
+                        <label for="apellidos" class="control-label">Apellidos </label>
+                        <input type="text" id="apellidos" name="apellidos" class="form-control">
+                        </br>
+                        <label for="dni" class="control-label">DNI </label>
+                        <input type="text" id="dni" name="dni" class="form-control">
+                        </br>
+                        <label for="direccion" class="control-label">Dirección </label>
+                        <input type="text" id="direccion" name="direccion" class="form-control">
+                        </br>
+                        <label for="ciudad" class="control-label">Ciudad </label>
+                        <input type="text" id="ciudad" name="ciudad" class="form-control">
+                        </br>
+                        <label for="cp" class="control-label">Codigo Postal </label>
+                        <input type="text" id="cp" name="cp" maxlength="5" class="form-control">
+                        </br>
+                        <label for="provincia" class="control-label">Provincia</label>
+                        <select id="provincia" name="provincia" class="form-control">
+                            <option value="jaen">Jaen </option>
+                            <option value="cordoba">Cordoba </option>
+                            <option value="sevilla">Sevilla </option>
+                            <option value="huelva">Huelva </option>
+                            <option value="cadiz">Cadiz </option>
+                            <option value="malaga">Malaga </option>
+                            <option value="granada">Granada </option>
+                            <option value="almeria">almeria </option>
+                        </select>
+                        </br>
+                        <label for="telefono" class="control-label">Telefono </label>
+                        <input type="text" id="telefono" name="telefono" class="form-control">
+                        </br>
+                        <label for="mail" class="control-label">E-mail </label>
+                        <input type="text" id="mail" name="mail" class="form-control">
+                        </br>
+                        <label for="usuario" class="control-label">Usuario </label>
+                        <input type="text" id="usuario" name="usuario" class="form-control">
+                        </br>
+                        <label for="contraseña" class="control-label">Contraseña </label>
+                        <input type="password" id="contraseña" name="contraseña" class="form-control"> 
+                        </br>
+                        <label for="repiteContraseña" class="control-label">Repetir Contraseña </label>
+                        <input type="password" id="repiteContraseña" name="repiteContraseña" class="form-control">
+                        </br>
+                        <input type="submit" id="registro" name="registro" value="Registrarme" class="btn btn-group-justified" onclick="comprobarContraseñas()" >
+                        
+                        </form>
+            </fieldset>
+            </div>
+            </div>
+                
+                
+            </div>
+            <div class="col-xs-1 col-md-3"></div>
+            </div>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+             <script src="cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

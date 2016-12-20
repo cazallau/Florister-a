@@ -1,0 +1,27 @@
+p.parrafo1{
+    color: seagreen;
+    border-style: solid;
+    border-width: 12px;
+    border-color: red;
+    padding: 16px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    line-height: 20px;
+    background-color: lightgray;
+}
+p.parrafo2{
+    color: blue;
+    border-style: outset;
+    border-color: black;
+    border-spacing: 30px;
+    border-width: 5px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    padding: 10px;  
+    background-image:url("../imagenes/descarga.jpg");
+}
+table{
+    border: 2px;
+    border-color: black;
+}
